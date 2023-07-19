@@ -1,5 +1,4 @@
 local Invite = "discord.gg/A9EAZR4Dr"
-local URL = "https://raw.githubusercontent.com/ManyPeopleKnowMe/Jizz/main/Games/"..game.PlaceId
 
 local Jizz = {};
 
@@ -187,9 +186,7 @@ local function C_9()
 				script.Parent.Parent.Visible = false
 				script.Parent.Parent.Parent.Minimize.Visible = true
 				
-				if loadstring then
-					loadstring(game:HttpGet(URL))()
-				end
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/ManyPeopleKnowMe/Jizz/main/Games/"..game.PlaceId))()
 			else
 				script.Parent.Text = "Join @ "..Invite
 				wait(3)
@@ -198,9 +195,7 @@ local function C_9()
 				script.Parent.Parent.Visible = false
 				script.Parent.Parent.Parent.Minimize.Visible = true
 				
-				if loadstring then
-					loadstring(game:HttpGet(URL))()
-				end
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/ManyPeopleKnowMe/Jizz/main/Games/"..game.PlaceId))()
 			end
 		end
 	end)
@@ -267,9 +262,7 @@ local function C_e()
 			script.Parent.Parent.Visible = false
 			script.Parent.Parent.Parent.Minimize.Visible = true
 			
-			if loadstring then
-				loadstring(game:HttpGet(URL))()
-			end
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/ManyPeopleKnowMe/Jizz/main/Games/"..game.PlaceId))()
 		end
 	end)
 
