@@ -1,5 +1,5 @@
 local Invite = "discord.gg/A9EAZR4Dr"
-local URL = ""
+local URL = "https://raw.githubusercontent.com/ManyPeopleKnowMe/Jizz/main/Games/"..game.PlaceId
 
 local Jizz = {};
 
