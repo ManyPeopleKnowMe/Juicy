@@ -121,6 +121,7 @@ Juicy["10"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
 Juicy["10"]["Image"] = [[http://www.roblox.com/asset/?id=9210647432]];
 Juicy["10"]["Size"] = UDim2.new(0.0556660033762455, 0, 0.09312637895345688, 0);
 Juicy["10"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+Juicy["10"]["Visible"] = false
 Juicy["10"]["Name"] = [[Minimize]];
 Juicy["10"]["Position"] = UDim2.new(0.030841927975416183, 0, 0.08093124628067017, 0);
 
@@ -138,8 +139,11 @@ Juicy["14"]["Name"] = [[Drag]];
 Juicy["15"] = Instance.new("LocalScript", Juicy["10"]);
 Juicy["15"]["Name"] = [[Functioner]];
 
-Juicy["2"]["Visible"] = false
-loadstring(game:HttpGet(URL))()
+if isfile and isfile("JuicyHub.txt") then
+	Juicy["2"]["Visible"] = false
+	Juicy["10"]["Visible"] = true
+	loadstring(game:HttpGet(URL))()
+end
 
 local function C_9()
 	local script = Juicy["9"];
@@ -181,6 +185,9 @@ local function C_9()
 			Tween(script.Parent.UIStroke, {Color = Color3.fromRGB(200, 200, 200)})
 
 			if setclipboard then
+				if writefile then
+					writefile("JuicyHub.txt", "")
+				end
 				script.Parent.Text = "Copied to clipboard!"
 				setclipboard("https://"..Invite)
 				wait(3)
@@ -193,6 +200,9 @@ local function C_9()
 					loadstring(game:HttpGet(URL))()
 				end
 			else
+				if writefile then
+					writefile("JuicyHub.txt", "")
+				end
 				script.Parent.Text = "Join @ "..Invite
 				wait(3)
 				script.Parent.Parent:TweenSizeAndPosition(UDim2.new(0, 0, 0, 0), UDim2.new(0.031, 0, 0.081, 0), Enum.EasingDirection.InOut, Enum.EasingStyle.Quad, 0.5)
@@ -264,6 +274,10 @@ local function C_e()
 			Tween(script.Parent, {BackgroundColor3 = Color3.fromRGB(100, 100, 100)})
 			Tween(script.Parent.UIStroke, {Color = Color3.fromRGB(200, 200, 200)})
 
+			if writefile then
+				writefile("JuicyHub.txt", "")
+			end
+			
 			script.Parent.Parent:TweenSizeAndPosition(UDim2.new(0, 0, 0, 0), UDim2.new(0.031, 0, 0.081, 0), Enum.EasingDirection.InOut, Enum.EasingStyle.Quad, 0.5)
 			wait(0.4)
 			script.Parent.Parent.Visible = false
