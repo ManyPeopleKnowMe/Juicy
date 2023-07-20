@@ -1,146 +1,146 @@
 local Invite = "discord.gg/A9EAZR4Dr"
-local URL = "https://raw.githubusercontent.com/ManyPeopleKnowMe/Jizz/main/Games/"..game.PlaceId..".lua"
+local URL = "https://raw.githubusercontent.com/ManyPeopleKnowMe/Juicy/main/Games/"..game.PlaceId..".lua"
 
-local Jizz = {};
+local Juicy = {};
 
-Jizz["1"] = Instance.new("ScreenGui", game.CoreGui);
-Jizz["1"]["Name"] = [[Jizz_Utilities]];
+Juicy["1"] = Instance.new("ScreenGui", game.CoreGui);
+Juicy["1"]["Name"] = [[Juicy_Utilities]];
 
-Jizz["2"] = Instance.new("Frame", Jizz["1"]);
-Jizz["2"]["BorderSizePixel"] = 0;
-Jizz["2"]["BackgroundColor3"] = Color3.fromRGB(35, 35, 35);
-Jizz["2"]["BackgroundTransparency"] = 0.10000000149011612;
-Jizz["2"]["Size"] = UDim2.new(0.36410823464393616, 0, 0.5165758728981018, 0);
-Jizz["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-Jizz["2"]["Position"] = UDim2.new(0.31794530153274536, 0, 0.24157294631004333, 0);
-Jizz["2"]["Name"] = [[Loader]];
+Juicy["2"] = Instance.new("Frame", Juicy["1"]);
+Juicy["2"]["BorderSizePixel"] = 0;
+Juicy["2"]["BackgroundColor3"] = Color3.fromRGB(35, 35, 35);
+Juicy["2"]["BackgroundTransparency"] = 0.10000000149011612;
+Juicy["2"]["Size"] = UDim2.new(0.36410823464393616, 0, 0.5165758728981018, 0);
+Juicy["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+Juicy["2"]["Position"] = UDim2.new(0.31794530153274536, 0, 0.24157294631004333, 0);
+Juicy["2"]["Name"] = [[Loader]];
 
-Jizz["3"] = Instance.new("Frame", Jizz["2"]);
-Jizz["3"]["ZIndex"] = 0;
-Jizz["3"]["BorderSizePixel"] = 0;
-Jizz["3"]["BackgroundTransparency"] = 1;
-Jizz["3"]["Size"] = UDim2.new(1, 0, 1, 0);
-Jizz["3"]["Name"] = [[DropShadowHolder]];
+Juicy["3"] = Instance.new("Frame", Juicy["2"]);
+Juicy["3"]["ZIndex"] = 0;
+Juicy["3"]["BorderSizePixel"] = 0;
+Juicy["3"]["BackgroundTransparency"] = 1;
+Juicy["3"]["Size"] = UDim2.new(1, 0, 1, 0);
+Juicy["3"]["Name"] = [[DropShadowHolder]];
 
-Jizz["4"] = Instance.new("ImageLabel", Jizz["3"]);
-Jizz["4"]["ZIndex"] = 0;
-Jizz["4"]["BorderSizePixel"] = 0;
-Jizz["4"]["SliceCenter"] = Rect.new(49, 49, 450, 450);
-Jizz["4"]["ScaleType"] = Enum.ScaleType.Slice;
-Jizz["4"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
-Jizz["4"]["ImageTransparency"] = 0.5;
-Jizz["4"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-Jizz["4"]["Image"] = [[rbxassetid://6014261993]];
-Jizz["4"]["Size"] = UDim2.new(1, 47, 1, 47);
-Jizz["4"]["Name"] = [[DropShadow]];
-Jizz["4"]["BackgroundTransparency"] = 1;
-Jizz["4"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+Juicy["4"] = Instance.new("ImageLabel", Juicy["3"]);
+Juicy["4"]["ZIndex"] = 0;
+Juicy["4"]["BorderSizePixel"] = 0;
+Juicy["4"]["SliceCenter"] = Rect.new(49, 49, 450, 450);
+Juicy["4"]["ScaleType"] = Enum.ScaleType.Slice;
+Juicy["4"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
+Juicy["4"]["ImageTransparency"] = 0.5;
+Juicy["4"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+Juicy["4"]["Image"] = [[rbxassetid://6014261993]];
+Juicy["4"]["Size"] = UDim2.new(1, 47, 1, 47);
+Juicy["4"]["Name"] = [[DropShadow]];
+Juicy["4"]["BackgroundTransparency"] = 1;
+Juicy["4"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 
-Jizz["5"] = Instance.new("UICorner", Jizz["2"]);
+Juicy["5"] = Instance.new("UICorner", Juicy["2"]);
 
-Jizz["6"] = Instance.new("TextLabel", Jizz["2"]);
-Jizz["6"]["TextWrapped"] = true;
-Jizz["6"]["BorderSizePixel"] = 0;
-Jizz["6"]["TextScaled"] = true;
-Jizz["6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-Jizz["6"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-Jizz["6"]["TextSize"] = 14;
-Jizz["6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-Jizz["6"]["Size"] = UDim2.new(0.7750929594039917, 0, 0.1105990782380104, 0);
-Jizz["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-Jizz["6"]["Text"] = [[Jizz Hub]];
-Jizz["6"]["Name"] = [[Title]];
-Jizz["6"]["BackgroundTransparency"] = 1;
-Jizz["6"]["Position"] = UDim2.new(0.11273941397666931, 0, 0.08156988769769669, 0);
+Juicy["6"] = Instance.new("TextLabel", Juicy["2"]);
+Juicy["6"]["TextWrapped"] = true;
+Juicy["6"]["BorderSizePixel"] = 0;
+Juicy["6"]["TextScaled"] = true;
+Juicy["6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+Juicy["6"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+Juicy["6"]["TextSize"] = 14;
+Juicy["6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+Juicy["6"]["Size"] = UDim2.new(0.7750929594039917, 0, 0.1105990782380104, 0);
+Juicy["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+Juicy["6"]["Text"] = [[Juicy Hub]];
+Juicy["6"]["Name"] = [[Title]];
+Juicy["6"]["BackgroundTransparency"] = 1;
+Juicy["6"]["Position"] = UDim2.new(0.11273941397666931, 0, 0.08156988769769669, 0);
 
-Jizz["7"] = Instance.new("TextLabel", Jizz["2"]);
-Jizz["7"]["TextWrapped"] = true;
-Jizz["7"]["BorderSizePixel"] = 0;
-Jizz["7"]["TextScaled"] = true;
-Jizz["7"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
-Jizz["7"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-Jizz["7"]["TextSize"] = 14;
-Jizz["7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-Jizz["7"]["Size"] = UDim2.new(0.7158508896827698, 0, 0.09220574796199799, 0);
-Jizz["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-Jizz["7"]["Text"] = [[Join Discord]];
-Jizz["7"]["Name"] = [[Join]];
-Jizz["7"]["Position"] = UDim2.new(0.13992945849895477, 0, 0.6970855593681335, 0);
+Juicy["7"] = Instance.new("TextLabel", Juicy["2"]);
+Juicy["7"]["TextWrapped"] = true;
+Juicy["7"]["BorderSizePixel"] = 0;
+Juicy["7"]["TextScaled"] = true;
+Juicy["7"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+Juicy["7"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+Juicy["7"]["TextSize"] = 14;
+Juicy["7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+Juicy["7"]["Size"] = UDim2.new(0.7158508896827698, 0, 0.09220574796199799, 0);
+Juicy["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+Juicy["7"]["Text"] = [[Join Discord]];
+Juicy["7"]["Name"] = [[Join]];
+Juicy["7"]["Position"] = UDim2.new(0.13992945849895477, 0, 0.6970855593681335, 0);
 
-Jizz["8"] = Instance.new("UICorner", Jizz["7"]);
+Juicy["8"] = Instance.new("UICorner", Juicy["7"]);
 
-Jizz["9"] = Instance.new("LocalScript", Jizz["7"]);
-Jizz["9"]["Name"] = [[Functioner]];
+Juicy["9"] = Instance.new("LocalScript", Juicy["7"]);
+Juicy["9"]["Name"] = [[Functioner]];
 
-Jizz["a"] = Instance.new("UIStroke", Jizz["7"]);
-Jizz["a"]["Color"] = Color3.fromRGB(82, 82, 82);
-Jizz["a"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+Juicy["a"] = Instance.new("UIStroke", Juicy["7"]);
+Juicy["a"]["Color"] = Color3.fromRGB(82, 82, 82);
+Juicy["a"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
-Jizz["b"] = Instance.new("TextLabel", Jizz["2"]);
-Jizz["b"]["TextWrapped"] = true;
-Jizz["b"]["BorderSizePixel"] = 0;
-Jizz["b"]["TextScaled"] = true;
-Jizz["b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-Jizz["b"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-Jizz["b"]["TextSize"] = 14;
-Jizz["b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-Jizz["b"]["Size"] = UDim2.new(0.7750929594039917, 0, 0.0714285746216774, 0);
-Jizz["b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-Jizz["b"]["Text"] = [[Alpha 1.0.4]];
-Jizz["b"]["Name"] = [[Version]];
-Jizz["b"]["BackgroundTransparency"] = 1;
-Jizz["b"]["Position"] = UDim2.new(0.11152416467666626, 0, 0.21658986806869507, 0);
+Juicy["b"] = Instance.new("TextLabel", Juicy["2"]);
+Juicy["b"]["TextWrapped"] = true;
+Juicy["b"]["BorderSizePixel"] = 0;
+Juicy["b"]["TextScaled"] = true;
+Juicy["b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+Juicy["b"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+Juicy["b"]["TextSize"] = 14;
+Juicy["b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+Juicy["b"]["Size"] = UDim2.new(0.7750929594039917, 0, 0.0714285746216774, 0);
+Juicy["b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+Juicy["b"]["Text"] = [[Alpha 1.0.4]];
+Juicy["b"]["Name"] = [[Version]];
+Juicy["b"]["BackgroundTransparency"] = 1;
+Juicy["b"]["Position"] = UDim2.new(0.11152416467666626, 0, 0.21658986806869507, 0);
 
-Jizz["c"] = Instance.new("TextLabel", Jizz["2"]);
-Jizz["c"]["TextWrapped"] = true;
-Jizz["c"]["BorderSizePixel"] = 0;
-Jizz["c"]["TextScaled"] = true;
-Jizz["c"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
-Jizz["c"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-Jizz["c"]["TextSize"] = 14;
-Jizz["c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-Jizz["c"]["Size"] = UDim2.new(0.3921933174133301, 0, 0.0714285746216774, 0);
-Jizz["c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-Jizz["c"]["Text"] = [[No Thanks!]];
-Jizz["c"]["Name"] = [[NoThanks]];
-Jizz["c"]["BackgroundTransparency"] = 1;
-Jizz["c"]["Position"] = UDim2.new(0.30483272671699524, 0, 0.8129093647003174, 0);
+Juicy["c"] = Instance.new("TextLabel", Juicy["2"]);
+Juicy["c"]["TextWrapped"] = true;
+Juicy["c"]["BorderSizePixel"] = 0;
+Juicy["c"]["TextScaled"] = true;
+Juicy["c"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+Juicy["c"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+Juicy["c"]["TextSize"] = 14;
+Juicy["c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+Juicy["c"]["Size"] = UDim2.new(0.3921933174133301, 0, 0.0714285746216774, 0);
+Juicy["c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+Juicy["c"]["Text"] = [[No Thanks!]];
+Juicy["c"]["Name"] = [[NoThanks]];
+Juicy["c"]["BackgroundTransparency"] = 1;
+Juicy["c"]["Position"] = UDim2.new(0.30483272671699524, 0, 0.8129093647003174, 0);
 
-Jizz["d"] = Instance.new("UICorner", Jizz["c"]);
+Juicy["d"] = Instance.new("UICorner", Juicy["c"]);
 
-Jizz["e"] = Instance.new("LocalScript", Jizz["c"]);
-Jizz["e"]["Name"] = [[Functioner]];
+Juicy["e"] = Instance.new("LocalScript", Juicy["c"]);
+Juicy["e"]["Name"] = [[Functioner]];
 
-Jizz["f"] = Instance.new("UIStroke", Jizz["c"]);
-Jizz["f"]["Color"] = Color3.fromRGB(82, 82, 82);
-Jizz["f"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+Juicy["f"] = Instance.new("UIStroke", Juicy["c"]);
+Juicy["f"]["Color"] = Color3.fromRGB(82, 82, 82);
+Juicy["f"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
-Jizz["10"] = Instance.new("ImageLabel", Jizz["1"]);
-Jizz["10"]["BorderSizePixel"] = 0;
-Jizz["10"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
-Jizz["10"]["Visible"] = false;
-Jizz["10"]["Image"] = [[http://www.roblox.com/asset/?id=9210647432]];
-Jizz["10"]["Size"] = UDim2.new(0.0556660033762455, 0, 0.09312637895345688, 0);
-Jizz["10"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-Jizz["10"]["Name"] = [[Minimize]];
-Jizz["10"]["Position"] = UDim2.new(0.030841927975416183, 0, 0.08093124628067017, 0);
+Juicy["10"] = Instance.new("ImageLabel", Juicy["1"]);
+Juicy["10"]["BorderSizePixel"] = 0;
+Juicy["10"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+Juicy["10"]["Visible"] = false;
+Juicy["10"]["Image"] = [[http://www.roblox.com/asset/?id=9210647432]];
+Juicy["10"]["Size"] = UDim2.new(0.0556660033762455, 0, 0.09312637895345688, 0);
+Juicy["10"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+Juicy["10"]["Name"] = [[Minimize]];
+Juicy["10"]["Position"] = UDim2.new(0.030841927975416183, 0, 0.08093124628067017, 0);
 
-Jizz["11"] = Instance.new("UICorner", Jizz["10"]);
+Juicy["11"] = Instance.new("UICorner", Juicy["10"]);
 
-Jizz["12"] = Instance.new("UIStroke", Jizz["10"]);
-Jizz["12"]["Color"] = Color3.fromRGB(82, 82, 82);
-Jizz["12"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+Juicy["12"] = Instance.new("UIStroke", Juicy["10"]);
+Juicy["12"]["Color"] = Color3.fromRGB(82, 82, 82);
+Juicy["12"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
-Jizz["13"] = Instance.new("UIAspectRatioConstraint", Jizz["10"]);
+Juicy["13"] = Instance.new("UIAspectRatioConstraint", Juicy["10"]);
 
-Jizz["14"] = Instance.new("LocalScript", Jizz["10"]);
-Jizz["14"]["Name"] = [[Drag]];
+Juicy["14"] = Instance.new("LocalScript", Juicy["10"]);
+Juicy["14"]["Name"] = [[Drag]];
 
-Jizz["15"] = Instance.new("LocalScript", Jizz["10"]);
-Jizz["15"]["Name"] = [[Functioner]];
+Juicy["15"] = Instance.new("LocalScript", Juicy["10"]);
+Juicy["15"]["Name"] = [[Functioner]];
 
 local function C_9()
-	local script = Jizz["9"];
+	local script = Juicy["9"];
 	local TweenService = game:GetService("TweenService")
 	local UserInputService = game:GetService("UserInputService")
 
@@ -224,7 +224,7 @@ end;
 task.spawn(C_9);
 
 local function C_e()
-	local script = Jizz["e"];
+	local script = Juicy["e"];
 	local TweenService = game:GetService("TweenService")
 	local UserInputService = game:GetService("UserInputService")
 
@@ -292,7 +292,7 @@ end;
 task.spawn(C_e);
 
 local function C_13()
-	local script = Jizz["13"];
+	local script = Juicy["13"];
 	local UserInputService = game:GetService("UserInputService")
 	local runService = (game:GetService("RunService"));
 
@@ -350,7 +350,7 @@ end;
 task.spawn(C_13);
 
 local function C_14()
-	local script = Jizz["14"];
+	local script = Juicy["14"];
 	local TweenService = game:GetService("TweenService")
 	local UserInputService = game:GetService("UserInputService")
 
@@ -420,4 +420,4 @@ local function C_14()
 end;
 task.spawn(C_14);
 
-return Jizz["1"], require;
+return Juicy["1"], require;
